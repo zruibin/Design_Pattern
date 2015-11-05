@@ -40,6 +40,40 @@
 
 <br>
 
+##依赖倒置原则(Dependence Inversion Principle)
+
+>High level modules should not depend upon low level modules. Both should depend upon abstractios. Abstractions should not depend upon details. Details should depend upon abstractions.
+
+1. 高层模块不应该依赖低层模块，两者都应该依赖其抽象；
+2. 抽象不应该依赖细节；
+3. 细节应该依赖抽象。
+
+* 模块间的依赖通过抽象发生，实现类之间不发生直接的依赖关系，其依赖关系是通过接口或抽象类产生的；
+* 接口或抽象类不依赖实现类；
+* 实现类依赖接口或抽象类。
+
+####写法
+1. 构造函数传递依赖对象
+2. Setter方法传递依赖对象
+3. 接口声明依赖对象
+
+####建议
+>每个类尽量都有接口或抽象类，或者抽象类和接口两者都具备
+
+>变量的表面类型尽量是接口或者是抽象类
+
+>任何类都不应该从具体类派生
+
+>尽量不要覆写基类的方法
+
+>结合里氏替换原则使用
+
+<br>
+
+
+
+
+
 
 
 
