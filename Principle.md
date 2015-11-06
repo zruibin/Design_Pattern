@@ -108,6 +108,26 @@
 
 <br>
 
+##开闭原则
+
+>Software entites like classes, modules and funtcions should be open for extension but closed for modification.(一个软件实体如类、模块和函数应该对扩展开放，对修改关闭。)
+
+1. 开闭原则对测试的影响
+2. 开闭原则可以提高复用性
+3. 开闭原则可以提高可维护性
+4. 面向对象开发的要求
+
+* 对象约束
+* 元数据(metadata)控制模块行为
+* 制定项目章程
+* 封装变化
+
+####注意
+>开闭原则也只是一个原则
+>
+>项目规章非常重要
+>
+>预知变化
 
 
 
