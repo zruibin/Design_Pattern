@@ -225,7 +225,6 @@
 		2467F51319F37ED800437073 /* DesignPatterns-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DesignPatterns-Info.plist"; sourceTree = "<group>"; };
 		2467F51519F37ED800437073 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		2467F51719F37ED800437073 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		2467F51919F37ED800437073 /* DesignPatterns-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DesignPatterns-Prefix.pch"; sourceTree = "<group>"; };
 		2467F51A19F37ED800437073 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		2467F51B19F37ED800437073 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		2467F51D19F37ED800437073 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -242,6 +241,7 @@
 		24B2B0831A067DB1001D74E0 /* BuilderTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BuilderTests.m; sourceTree = "<group>"; };
 		24BD69891A4477170007D525 /* PrototypeTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrototypeTests.m; sourceTree = "<group>"; };
 		24D9588319FE99B800C3F23E /* StateTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StateTests.m; sourceTree = "<group>"; };
+		51E814A01CBB70BA002C7498 /* DesignPatterns-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "DesignPatterns-Prefix.pch"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -561,7 +561,7 @@
 				2467F51319F37ED800437073 /* DesignPatterns-Info.plist */,
 				2467F51419F37ED800437073 /* InfoPlist.strings */,
 				2467F51719F37ED800437073 /* main.m */,
-				2467F51919F37ED800437073 /* DesignPatterns-Prefix.pch */,
+				51E814A01CBB70BA002C7498 /* DesignPatterns-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
